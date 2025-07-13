@@ -18,3 +18,28 @@ This project uses a **local music dataset** for song recommendation based on det
 
 Please organize your music files like this:
 
+/-Facial-Expression-Based-Music-Recommendation-/
+│
+├── dataset/
+│   └── fer2013.csv
+│
+├── music/
+│   ├── happy/
+│   ├── sad/
+│   ├── angry/
+│   ├── neutral/
+│   ├── surprise/
+│   └── ...
+│
+├── src/
+│   ├── detect_face.py
+│   ├── detect_emotion.py
+│   ├── play_music.py
+│   ├── main.py
+│   └── ...
+│
+├── models/
+│
+├── requirements.txt
+├── .gitignore
+└── README.md
